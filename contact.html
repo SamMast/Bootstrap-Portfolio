@@ -3,7 +3,10 @@
 	<head>
 		<title>Sam Mast Portfolio - Contact</title>
 		<meta charset="UTF-8">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"	</head>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+
 	<body>
 		<div>
 			<div>
@@ -13,12 +16,14 @@
 						<nav class="navbar navbar-default">
 						  <div class="container-fluid container">
 						    <div class="navbar-header col-sm-12 col-xs-12 col-md-8 col-lg-8 text-center">
-						      <a class="navbar-brand" href="index.html">Samuel Alton Mast</a>
+						      	<a class="navbar-brand" href="index.html">
+						      		Samuel Alton Mast
+						      	</a>
 						    </div>
-						    <ul class="nav navbar-nav navbar-right col-sm-12 col-xs-12 col-md-4 col-lg-4 text-center">
-						      <li><a href="index.html">About</a></li>
-						      <li><a href="portfolio.html">Portfolio</a></li>
-						      <li class="active"><a href="contact.html">Contact</a></li>
+						    <ul class="nav navbar-nav navbar-right col-sm-12 col-xs-12 col-md-4 col-lg-4 row">
+						      <li class="col-sm-4 col-xs-4 col-md-4 col-lg-4 text-center"><a href="index.html">About</a></li>
+						      <li class="col-sm-4 col-xs-4 col-md-4 col-lg-4 text-center"><a href="portfolio.html">Portfolio</a></li>
+						      <li class="active col-sm-4 col-xs-4 col-md-4 col-lg-4 text-center"><a href="contact.html">Contact</a></li>
 						    </ul>
 						  </div>
 						</nav>	
@@ -33,54 +38,54 @@
 
 					<section class="container panel panel-default col-md-8 col-lg-8 col-sm-12 col-xs-12">
 
-						<div class="panel-heading">
+						<div class="panel-heading row">
 							<h2>Contact</h2>
 						</div>
+
 						<section class="panel-body">
-							<form class="form-horizontal">
-								<div class="form-group">
-									<label for="nameinput" class="col-sm-2 control-label">Name:<br></label>
-									<div class="col-sm-offset-2 col-sm-9">
-										<input id="nameinput" type="text" name="name" placeholder="John Smith" class="name"><br>
-									</div>
-								</div>
-								<div class="form-group">
-									<label for="emailinput" class="col-sm-2 control-label">Email:<br></label>
-									<div class="col-sm-offset-2 col-sm-9">
-										<input type="email" id="emailinput" name="email" placeholder="example@gmail.com" class="email"><br>
-									</div>
-								</div>
-								<div class="form-group">
-									<label for="messageinput" class="col-sm-2 control-label">Message:<br></label>
-									<div class="col-sm-offset-2 col-sm-9">
-										<textarea rows="4" name="comment" id="messageinput" class="form-control"></textarea><br>
-									</div>
-								</div>
-								<div class="form-group">
-									<div class="col-sm-offset-2 col-sm-2">
-										<button type="submit" class="btn btn-default">Submit</button>
-									</div>
-								</div>
+							<form action="">
+
+							  <div class="form-group">
+							    <label for="pwd">
+							    	Name:
+							    </label>
+							    <input type="password" class="form-control" id="pwd" placeholder="John Smith">
+							  </div>
+
+							  <div class="form-group">
+							    <label for="email">
+							    	Email address:
+							    </label>
+							    <input type="email" class="form-control" id="email" placeholder="example@gmail.com">
+							  </div>
+							  
+							  <div class="form-group">
+							    <label for="msg">
+							    	Message:
+							    </label>
+							    	<textarea class="form-control" rows="6" id="msg"></textarea>
+							  </div>
+							  <button type="submit" class="btn btn-default">Submit</button>
 							</form>
 						</section>
 
 					</section>
 
 					<section class="col-md-3 col-md-offset-1 col-lg-3 col-lg-offset-1 col-sm-12 col-xs-12 panel panel-default">
-						<div class="panel-heading">
+						<div class="panel-heading row">
 							<a href="contact.html">
 								<h3 class="text-center">Connect With Me</h3>
 							</a>
 						</div>
 						<div class="row panel-body text-center">
 							<a href="https://www.linkedin.com/in/sammast/" target="_blank" class="col-md-4 col-lg-4 col-sm-4 col-xs-4">
-								<img src="assests/images/linkedin.png" alt="LinkedIn"/>
+								<img src="assets/images/linkedin.png" alt="LinkedIn" class="img-responsive" />
 							</a>
 							<a href="https://github.com/SamMast/" target="_blank" class="col-md-4 col-lg-4 col-sm-4 col-xs-4">
-								<img src="assests/images/github.png" alt="GitHub"/>
+								<img src="assets/images/github.png" alt="GitHub" class="img-responsive" />
 							</a>
 							<a href="https://stackoverflow.com/users/9069731/sam-mast" target="_blank" class="col-md-4 col-lg-4 col-sm-4 col-xs-4">
-								<img src="assests/images/stackoverflow.png" alt="StackOverflow"/>
+								<img src="assets/images/stackoverflow.png" alt="StackOverflow" class="img-responsive" />
 							</a>
 						</div>
 
