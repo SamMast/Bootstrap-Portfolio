@@ -70,5 +70,15 @@ body {
     text-align: center;
     margin-bottom: 15px;
   }
+  #middle p,
+  #middle ul {
+    font-size: 20px;
+  }
 }
 
+@media screen and (max-width: 338px) {
+  #headerName {
+    font-size: 25px;
+  }
+
+}
